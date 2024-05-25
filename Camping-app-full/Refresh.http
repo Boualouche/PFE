@@ -1,0 +1,34 @@
+POST http://localhost:8888/CARS-INVENTAIRE/actuator/refresh
+Accept: application/json
+
+###
+
+POST http://localhost:8761/actuator/refresh
+Accept: application/json
+
+###
+GET http://localhost:8888/CARS-INVENTAIRE/cars
+
+###
+POST http://localhost:8888/CARS-INVENTAIRE/cars
+Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI5akhKSm9sWmRzV3A0X0pPYUtNd193SWIzRXk1clIyeE1FZjNMRGx0NE1VIn0.eyJleHAiOjE3MTY0ODk0MDcsImlhdCI6MTcxNjQ4OTEwNywianRpIjoiOWJkMmE2NmQtZjIxYi00NmJlLTg5MjktZTI0M2MxN2IzZDg1IiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgwL3JlYWxtcy9jYXJzX3JlbnRhbCIsImF1ZCI6ImFjY291bnQiLCJzdWIiOiJjNjhjMzk0Ni0wMjA0LTRiNjMtODY1My1kMzQ1Zjg5ZjQ3NTkiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJjYXJzX3JlbnRhbF9yZWFjdCIsInNlc3Npb25fc3RhdGUiOiIyNjEzMjhjNC1lYzRlLTRlOTktOWMyOC01MzUyZTk0OTNlZWIiLCJhY3IiOiIxIiwiYWxsb3dlZC1vcmlnaW5zIjpbIi8qIl0sInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJkZWZhdWx0LXJvbGVzLWNhcnNfcmVudGFsIiwib2ZmbGluZV9hY2Nlc3MiLCJ1bWFfYXV0aG9yaXphdGlvbiJdfSwicmVzb3VyY2VfYWNjZXNzIjp7ImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoicHJvZmlsZSBlbWFpbCIsInNpZCI6IjI2MTMyOGM0LWVjNGUtNGU5OS05YzI4LTUzNTJlOTQ5M2VlYiIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwibmFtZSI6Ik1vaGFtZWQgQW1pbmUgWmJpciIsInByZWZlcnJlZF91c2VybmFtZSI6InVzZXIxIiwiZ2l2ZW5fbmFtZSI6Ik1vaGFtZWQgQW1pbmUiLCJmYW1pbHlfbmFtZSI6IlpiaXIiLCJlbWFpbCI6InVzZXIxQGdtYWlsLmNvbSJ9.LWpjl7QjWlqlNHyh45ExQ3hmdR5_YAfLHkdkGLBtEeVF3XAZBx67Lg_a0sJJN75wzn1CIWuSb2_lw4CpdnNbNlOYGP3af--jgNxRMLmKRmmZundN9HDjD6NW8kJMY58lnczcVjSlqpCS69owvssarhZ5RD7qHBHik3vcmBUkoA6E0THbfFF81K2DUgsBqq6AnWzWPyvMui2GnA-rAyJf43_g-vJGhcpFaB8PWac71OhJ50L_oJ7tzT1wKSOeTQMUrH6mJgrq2hKQ1ID_x37R3mIc9RrUy5ceMTdcEY90nVtksZAbccyVziwlMv9ddQcPsZfs9ntYSXJ-b-Z_1WBk1Q
+Content-Type: application/json
+
+{
+  "imagepath": "path/to/corolla.jpg",
+  "brand": "Toyota",
+  "name": "Corolla",
+  "dimensions": "4500mm x 1725mm x 1460mm",
+  "puissance": "120 hp",
+  "inventaire": null,
+  "type": "Family",
+  "dateFabrication": "2023-01-15",
+  "transmission": "Automatic"
+}
+###
+POST http://localhost:8080/realms/cars_rental/protocol/openid-connect/token
+Accept: application/json
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=password&client_id=cars_rental_react&username=user1&password=1234
+###
