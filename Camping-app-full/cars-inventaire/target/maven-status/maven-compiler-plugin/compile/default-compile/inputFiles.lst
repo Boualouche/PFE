@@ -1,0 +1,17 @@
+C:\Users\user\IdeaProjects\Camping-app-full\cars-inventaire\src\main\java\com\campify\carsinventaire\clients\InventaireRestClient.java
+C:\Users\user\IdeaProjects\Camping-app-full\cars-inventaire\src\main\java\com\campify\carsinventaire\model\Inventaire.java
+C:\Users\user\IdeaProjects\Camping-app-full\cars-inventaire\src\main\java\com\campify\carsinventaire\controllers\CarsRestController.java
+C:\Users\user\IdeaProjects\Camping-app-full\cars-inventaire\src\main\java\com\campify\carsinventaire\mappers\Mapper.java
+C:\Users\user\IdeaProjects\Camping-app-full\cars-inventaire\src\main\java\com\campify\carsinventaire\security\JwtAuthConverter.java
+C:\Users\user\IdeaProjects\Camping-app-full\cars-inventaire\src\main\java\com\campify\carsinventaire\controllers\CarsConfigTestController.java
+C:\Users\user\IdeaProjects\Camping-app-full\cars-inventaire\src\main\java\com\campify\carsinventaire\repository\CarsRepository.java
+C:\Users\user\IdeaProjects\Camping-app-full\cars-inventaire\src\main\java\com\campify\carsinventaire\config\ConfigParams.java
+C:\Users\user\IdeaProjects\Camping-app-full\cars-inventaire\src\main\java\com\campify\carsinventaire\domain\dto\CarsDto.java
+C:\Users\user\IdeaProjects\Camping-app-full\cars-inventaire\src\main\java\com\campify\carsinventaire\mappers\impl\CarsMapper.java
+C:\Users\user\IdeaProjects\Camping-app-full\cars-inventaire\src\main\java\com\campify\carsinventaire\services\CarsService.java
+C:\Users\user\IdeaProjects\Camping-app-full\cars-inventaire\src\main\java\com\campify\carsinventaire\config\MapperConfig.java
+C:\Users\user\IdeaProjects\Camping-app-full\cars-inventaire\src\main\java\com\campify\carsinventaire\CarsInventaireApplication.java
+C:\Users\user\IdeaProjects\Camping-app-full\cars-inventaire\src\main\java\com\campify\carsinventaire\advice\GlobalExceptionHandler.java
+C:\Users\user\IdeaProjects\Camping-app-full\cars-inventaire\src\main\java\com\campify\carsinventaire\services\impl\CarsServiceImpl.java
+C:\Users\user\IdeaProjects\Camping-app-full\cars-inventaire\src\main\java\com\campify\carsinventaire\domain\entities\CarsEntity.java
+C:\Users\user\IdeaProjects\Camping-app-full\cars-inventaire\src\main\java\com\campify\carsinventaire\security\SecurityConfig.java

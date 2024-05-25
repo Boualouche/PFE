@@ -1,0 +1,16 @@
+com\campify\inventaireservice\config\MapperConfig.class
+com\campify\inventaireservice\domain\entities\ArchiveVoitureEntity$ArchiveVoitureEntityBuilder.class
+com\campify\inventaireservice\domain\dto\ArchiveVoitureDto.class
+com\campify\inventaireservice\mappers\Mapper.class
+com\campify\inventaireservice\security\SecurityConfig.class
+com\campify\inventaireservice\security\JwtAuthConverter.class
+com\campify\inventaireservice\advice\GlobalExceptionHandler.class
+com\campify\inventaireservice\service\ArchiveVoitureService.class
+com\campify\inventaireservice\service\impl\ArchiveVoitureImpl.class
+com\campify\inventaireservice\InventaireServiceApplication.class
+com\campify\inventaireservice\models\Car.class
+com\campify\inventaireservice\controller\ArchiveVoitureController.class
+com\campify\inventaireservice\clients\CarsRestClient.class
+com\campify\inventaireservice\domain\entities\ArchiveVoitureEntity.class
+com\campify\inventaireservice\repository\ArchiveVoitureRepository.class
+com\campify\inventaireservice\mappers\impl\ArchiveMapper.class
